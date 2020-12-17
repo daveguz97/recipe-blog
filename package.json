@@ -1,0 +1,26 @@
+{
+  "name": "recipe-page",
+  "version": "1.0.0",
+  "description": "A recipe blog",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daveguz97/recipe-blog.git"
+  },
+  "keywords": [
+    "Recipe",
+    "Dessert"
+  ],
+  "author": "David Guzman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daveguz97/recipe-blog/issues"
+  },
+  "homepage": "https://github.com/daveguz97/recipe-blog#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
