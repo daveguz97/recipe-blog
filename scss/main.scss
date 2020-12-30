@@ -1,1 +1,35 @@
-@import './config.scss'
+@import './config.scss';
+
+// Header
+.main-header {
+    margin-top: 4rem;
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    h3 {
+        margin-bottom: 12px;
+    }
+
+    .text-content {
+        display: flex;
+    }
+
+    p {
+        margin-bottom: 4rem;
+        max-width: 60%;
+    }
+
+    .dots {
+        margin-top: 0.5rem;
+        margin-right: 0.5rem;
+        align-self: flex-start;
+    }
+
+    .cheese-cake-img {
+        max-width: 900px;
+        margin: 0 auto;
+        align-self: center;
+    }
+}

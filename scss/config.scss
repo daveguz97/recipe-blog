@@ -18,6 +18,10 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Playfair Display', serif;
+}
+
 h1 {
     font-size: 4rem;
 }
@@ -43,10 +47,6 @@ h6 {
 }
 
 .container {
-    width: 60%;
-    margin: 0 auto;
-}
-
-.cheese-cake {
-    width: 100%;
+    width: 80%;
+    margin: 2rem auto;
 }

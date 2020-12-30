@@ -37,24 +37,3 @@ h6 {
 .container {
   width: 80%;
   margin: 2rem auto; }
-
-.main-header {
-  margin-top: 4rem; }
-  .main-header .wrapper {
-    display: flex;
-    flex-direction: column; }
-  .main-header h3 {
-    margin-bottom: 12px; }
-  .main-header .text-content {
-    display: flex; }
-  .main-header p {
-    margin-bottom: 4rem;
-    max-width: 60%; }
-  .main-header .dots {
-    margin-top: 0.5rem;
-    margin-right: 0.5rem;
-    align-self: flex-start; }
-  .main-header .cheese-cake-img {
-    max-width: 900px;
-    margin: 0 auto;
-    align-self: center; }
