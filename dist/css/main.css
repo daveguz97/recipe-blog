@@ -87,7 +87,19 @@ h6 {
     align-self: center; }
 
 .ingredients-section {
-  margin-top: 2.5rem; }
+  width: 75%;
+  margin: 2.5rem 0;
+  padding-bottom: 1.5rem; }
+  .ingredients-section h6 {
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 1rem 0; }
+  .ingredients-section .ingredient-div {
+    display: flex;
+    margin: 0.8rem 0; }
+    .ingredients-section .ingredient-div input {
+      margin: 5px 1rem; }
 
 @media screen and (max-width: 1024px) {
   .container {
