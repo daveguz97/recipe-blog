@@ -87,7 +87,7 @@ h6 {
     align-self: center; }
 
 .ingredients-section {
-  width: 75%;
+  width: 100%;
   margin: 2.5rem 0;
   padding-bottom: 1.5rem; }
   .ingredients-section h6 {
@@ -95,6 +95,35 @@ h6 {
     font-size: 18px;
     font-weight: 400;
     margin: 1rem 0; }
+  .ingredients-section .wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between; }
+  .ingredients-section .aside-bar {
+    background-color: #fff;
+    height: 100%;
+    margin-top: 1rem;
+    padding: 1rem 3rem;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3); }
+    .ingredients-section .aside-bar .info {
+      text-align: center;
+      display: flex;
+      margin: 1.5rem 0; }
+      .ingredients-section .aside-bar .info .text-content {
+        margin: 0 1rem;
+        align-self: flex-end; }
+      .ingredients-section .aside-bar .info .title {
+        text-transform: uppercase;
+        font-size: 10px;
+        color: #4f4f4f; }
+      .ingredients-section .aside-bar .info .description {
+        font-size: 14px; }
+      .ingredients-section .aside-bar .info .orange {
+        color: #f2994a; }
+  .ingredients-section .ingredient-content {
+    width: 75%; }
   .ingredients-section .ingredient-div {
     display: flex;
     margin: 0.8rem 0; }
