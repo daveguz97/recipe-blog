@@ -3,6 +3,7 @@
 // Header
 .main-header {
     margin-top: 4rem;
+    
     .wrapper {
         display: flex;
         flex-direction: column;
@@ -19,6 +20,8 @@
     p {
         margin-bottom: 4rem;
         max-width: 60%;
+        font-weight: 500;
+        color: $light-text-color;
     }
 
     .dots {
@@ -29,7 +32,10 @@
 
     .cheese-cake-img {
         max-width: 900px;
+        max-height: 470px;
         margin: 0 auto;
         align-self: center;
     }
 }
+
+@import './mobile.scss'
