@@ -20,4 +20,30 @@
   p {
     font-size: 12px; }
   .main-header {
-    margin-top: 2rem; } }
+    margin-top: 2rem; }
+  .ingredients-section .wrapper {
+    flex-direction: column; }
+  .ingredients-section .aside-bar {
+    box-shadow: none;
+    background-color: transparent;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    grid-template-areas: 'yields yields yields' 'prep cook total'; }
+    .ingredients-section .aside-bar .info .title {
+      font-size: 8px; }
+    .ingredients-section .aside-bar .info .description {
+      font-size: 10px; }
+    .ingredients-section .aside-bar .info i {
+      font-size: 1rem; }
+    .ingredients-section .aside-bar .info:first-child {
+      grid-area: yields; }
+    .ingredients-section .aside-bar .info:nth-child(2) {
+      grid-area: prep; }
+    .ingredients-section .aside-bar .info:nth-child(3) {
+      grid-area: cook; }
+    .ingredients-section .aside-bar .info:nth-child(4) {
+      grid-area: total; }
+  .ingredients-section .ingredients-content {
+    width: 100%; } }
