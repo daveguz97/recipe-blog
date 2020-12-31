@@ -182,8 +182,16 @@ h6 {
       color: #fff;
       font-size: 1.3rem; }
   .instructions-section .source {
+    width: 75%;
     text-align: center;
-    padding: 4rem 0; }
+    padding: 4rem 0;
+    color: #4f4f4f; }
+    .instructions-section .source a {
+      color: #4f4f4f;
+      text-decoration: none; }
+      .instructions-section .source a:hover {
+        transition: all 0.3s ease;
+        text-decoration: underline; }
 
 @media screen and (max-width: 1024px) {
   .container {

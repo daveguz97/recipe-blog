@@ -131,8 +131,20 @@
         }
     }
     .source {
+        width: 75%;
         text-align: center;
         padding: 4rem 0;
+        color: $light-text-color;
+
+        a {
+            color: $light-text-color;
+            text-decoration: none;
+
+            &:hover {
+                transition: all 0.3s ease;
+                text-decoration: underline;
+            }
+        }
     }
 }
 
