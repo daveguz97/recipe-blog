@@ -29,6 +29,7 @@
     display: grid;
     justify-content: center;
     align-items: center;
+    width: 100%;
     padding: 0;
     grid-template-areas: 'yields yields yields' 'prep cook total'; }
     .ingredients-section .aside-bar .info .title {
