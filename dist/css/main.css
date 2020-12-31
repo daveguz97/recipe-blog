@@ -13,7 +13,12 @@ body {
   color: #222;
   font-family: 'Montserrat', sans-serif; }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Playfair Display', serif; }
 
 h1 {
@@ -156,9 +161,29 @@ h6 {
     width: 75%; }
   .ingredients-section .ingredient-div {
     display: flex;
-    margin: 0.8rem 0; }
+    margin: 1rem 0; }
     .ingredients-section .ingredient-div input {
       margin: 5px 1rem; }
+
+.instructions-section {
+  width: 100%; }
+  .instructions-section .instruction {
+    width: 75%;
+    display: flex;
+    align-items: flex-start;
+    height: 100%;
+    margin: 1rem 0; }
+    .instructions-section .instruction .number-div {
+      text-align: center;
+      padding: 0.5rem 0.8rem;
+      margin: 0 1rem;
+      border-radius: 5px;
+      background: #f2994a;
+      color: #fff;
+      font-size: 1.3rem; }
+  .instructions-section .source {
+    text-align: center;
+    padding: 4rem 0; }
 
 @media screen and (max-width: 1024px) {
   .container {

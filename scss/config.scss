@@ -18,7 +18,12 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Playfair Display', serif;
 }
 
@@ -48,7 +53,7 @@ h6 {
 
 .container {
     width: 80%;
-    margin:auto;
+    margin: auto;
 }
 
-@import './mobile.scss'
+@import './mobile.scss';
